@@ -1,0 +1,14 @@
+<div>
+    <h3>Realtime database</h3>
+    Items :
+    <ul>
+        <li ng-repeat="item in databaseCtrl.items">
+            <input type="text" ng-model="item.text"> 
+            <button ng-click="databaseCtrl.updateItem(item.key, item.text)">Update</button> 
+            <button ng-click="databaseCtrl.removeItem(item.key)">Remove</button>
+        </li>
+    </ul>
+    Add item :
+    <input type="text" ng-model="databaseCtrl.newTextItem"> 
+    <button ng-click="databaseCtrl.addItem(databaseCtrl.newTextItem)">Add</button>
+</div>

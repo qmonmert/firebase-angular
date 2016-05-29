@@ -1,0 +1,9 @@
+<div>
+    <h3>Twitter Authentication</h3>
+    <div ng-show="!authenticationCtrl.user">
+        <button ng-click="authenticationCtrl.loginWithTwitter()">Login</button>
+    </div>
+    <div ng-show="authenticationCtrl.user">
+        Hello {{ authenticationCtrl.username }} <button ng-click="authenticationCtrl.logoutWithTwitter()">Logout</button>
+    </div>
+</div>

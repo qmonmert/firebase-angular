@@ -1,0 +1,27 @@
+{
+  "name": "firebase-angular",
+  "version": "1.0.0",
+  "description": "Firebase and AngularJS",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qmonmert/Chat-Firebase-Angular.git"
+  },
+  "keywords": [
+    "angular",
+    "firebase"
+  ],
+  "author": "Quentin Monmert",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "angular": "^1.5.5",
+    "angular-ui-router": "^0.3.0",
+    "angularfire": "^1.2.0",
+    "firebase": "^3.0.2",
+    "http-server": "^0.9.0"
+  }
+}

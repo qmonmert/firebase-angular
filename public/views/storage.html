@@ -1,0 +1,10 @@
+<div>
+    <h3>Storage</h3>
+    <input type='file' file-model='storageCtrl.fileModel'>
+    <div ng-show="storageCtrl.fileModel">
+        <button type='button' ng-click='storageCtrl.upload()'>Upload</button>
+    </div>
+    <div ng-show="storageCtrl.urlFile">
+        <a ng-href="{{storageCtrl.urlFile}}" style="font-size:12px;" target="_blank">Download</a>
+    </div>
+</div>

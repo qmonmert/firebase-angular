@@ -1,0 +1,35 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angular, Firebase</title>
+</head>
+<body ng-app="FirebaseAngularApp" ng-strict-di>
+    
+    <!-- Nav -->
+    <ul>
+        <li><a ui-sref="database">Database</a></li>    
+        <li><a ui-sref="authentication">Authentication</a></li>   
+        <li><a ui-sref="storage">Storage</a></li>   
+    </ul>
+
+	<div ui-view></div>
+    
+    <!-- AngularJS -->
+    <script src='scripts/app/lib/angular.js'></script>
+    <!-- Angular UI-Router -->
+    <script src='scripts/app/lib/angular-ui-router.js'></script>
+    <!-- Angular File Model -->
+    <script src='scripts/app/lib/angular-file-model.js'></script>
+    <!-- Firebase -->
+    <script src='scripts/app/lib/firebase.js'></script>
+    <!-- AngularFire -->
+    <script src='scripts/app/lib/angularfire.js'></script>
+    <!-- Scripts -->
+    <script src="app.js"></script>
+    <script src="scripts/app/config/app.config.js"></script>
+    <script src="scripts/app/controllers/database.controller.js"></script>
+    <script src="scripts/app/controllers/authentication.controller.js"></script>
+    <script src="scripts/app/controllers/storage.controller.js"></script>
+    
+</body>
+</html>
